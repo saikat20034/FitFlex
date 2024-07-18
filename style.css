@@ -301,7 +301,6 @@ body {
 }
 .img-1 {
   border-radius: 2000px;
-
 }
 .practice {
   width: 231px;
@@ -355,7 +354,7 @@ body {
 }
 .picture {
   display: flex;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .run-easily {
@@ -407,7 +406,7 @@ body {
   width: 366px;
   height: 312px;
 }
-.run-easily-right-container{
+.run-easily-right-container {
   padding-top: 30px;
   padding-bottom: 29px;
   padding-right: 32px;
@@ -446,11 +445,11 @@ body {
     display: none;
   }
   .right-top {
-    top:42%;
-    left:44%;
+    top: 42%;
+    left: 44%;
   }
   .left-bottom {
-    top:109%;
+    top: 109%;
     left: 1%;
   }
   .right {
@@ -462,52 +461,56 @@ body {
     color: white;
     z-index: 20000;
   }
-  .picture{
+  .habits {
+    margin-top: 400px;
+  }
+  .picture {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .right .big-image{
+  .right .big-image {
     padding-left: 0;
   }
-  .habits h1{
-    color: #FFF;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 38.4px */
+  .habits h1 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 38.4px */
   }
-  .habits p{
-    color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.3px;
+  .habits p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
   }
-  .movement img{
-    width: 272px;
-height: 180px;
-background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  .movement img {
+    /* width: 272px; */
+    height: 180px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
   }
-  .movement h3{
-    color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 21.6px */
+  .movement h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
   }
-  .movement p{
-    color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
-letter-spacing: 0.3px;
+  .movement p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.3px;
   }
 }
