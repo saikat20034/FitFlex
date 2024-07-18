@@ -223,157 +223,206 @@ body {
   backdrop-filter: blur(10px);
   text-align: center;
 }
-.hamburgerIcon{
-  display:none;
+.hamburgerIcon {
+  display: none;
   visibility: hidden;
 }
-.habits{
+.habits {
   max-width: 1044px;
-  margin:100px auto;
-
+  margin: 100px auto;
 }
-.habits h1{
+.habits h1 {
   margin-bottom: 14px;
   text-align: center;
-  color: #FFF;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 57.6px */
-
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
 }
-.habits p{
-margin-bottom: 32px;
-  color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.3px;
-}
-.movement{
-  width: 231px;;
-}
-.movement h3{
+.habits p {
+  margin-bottom: 32px;
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 21.6px */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
 }
-.movement p{
-  color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
-letter-spacing: 0.3px;
+.movement {
+  width: 231px;
 }
-.time{
+.movement h3 {
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
+}
+.movement p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.3px;
+}
+.time {
   width: 231px;
   text-align: center;
 }
-.time h3{
-  color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 21.6px */
+.time h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
 }
-.time p{
-  color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
-letter-spacing: 0.3px;
+.time p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.3px;
 }
-.img-2{
+.img-2 {
   border-radius: 2000px;
 }
-.img-1{
+.img-1 {
   border-radius: 2000px;
 }
-.practice{
+.practice {
   width: 231px;
   text-align: center;
 }
-.practice h3{
-  color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 21.6px */
+.practice h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
 }
-.practice p{
-  color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
-letter-spacing: 0.3px;
+.practice p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.3px;
 }
-.img-3{
+.img-3 {
   border-radius: 2000px;
 }
-.w8-loss{
+.w8-loss {
   width: 231px;
   text-align: center;
 }
-.img-4{
+.img-4 {
   border-radius: 2000px;
 }
-.w8-loss h3{
-  color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 21.6px */
+.w8-loss h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
 }
-.w8-loss p{
-  color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
-letter-spacing: 0.3px;
+.w8-loss p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.3px;
 }
-.picture{
-  display:flex;
-  justify-content:space-between;
+.picture {
+  display: flex;
+  justify-content: space-between;
 }
 
+/* .run-easily styles */
 
+.run-easily {
+  margin: 0 auto;
+  width: 1060px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+  background: #222;
+}
+.run-easily h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+}
 
-
-
-
-
-
-
+.run-easily p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+}
+.run-easily button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+  display: flex;
+  width: 224px;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 42px;
+  background: #e6533c;
+}
+.run-easily-right-container img {
+  border-radius: 18px;
+  background: url(<path-to-image>) lightgray -592.626px -156.368px / 335.395%
+    258.887% no-repeat;
+  width: 366px;
+  height: 312px;
+}
+.run-easily-right-container{
+  padding-top: 30px;
+  padding-bottom: 29px;
+  padding-right: 32px;
+}
+.run-easily-left-container {
+  padding-left: 54px;
+}
 
 @media (max-width: 576px) {
   .header-container {
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
     width: 575px;
   }
-  .heading{
+  .heading {
     height: 20px;
   }
   .heading h1 {
@@ -402,13 +451,13 @@ letter-spacing: 0.3px;
     left: 64%;
   }
   .left-bottom {
-    top:85%;
-    left:3%;
+    top: 85%;
+    left: 3%;
   }
-  .right{
+  .right {
     width: 575px;
   }
-  .hamburgerIcon{
+  .hamburgerIcon {
     display: block;
     width: 50px;
     color: white;
