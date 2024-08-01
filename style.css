@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/miami');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miami'); */
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 body {
   margin: 0 auto;
   padding: 0;
@@ -24,14 +29,15 @@ body {
 }
 .nav-items {
   display: flex;
-  padding: 8px 20px;
+  padding: 0;
   justify-content: center;
   align-items: center;
   gap: 10px;
   width: 457px;
   height: 46px;
-  /* border: 2px solid yellow; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
+  border-radius: 25px;
   font-family: Inter;
   font-size: 18px;
   gap: 47px;
@@ -45,8 +51,10 @@ body {
 .home {
   border-radius: 46px;
   background: #e6533c;
-  width: 92px;
+  width: 98px;
   height: 38px;
+  padding-left: 50px;
+  padding-top: 8px;
   align-items: center;
 }
 .nav-bar {
@@ -66,6 +74,7 @@ body {
   width: 520px;
   /* border: 2px solid red; */
 }
+
 .heading h1 {
   padding: 0;
   color: #fff;
@@ -105,7 +114,7 @@ body {
 }
 .right {
   height: 349px;
-  width: 580px;
+  width: 575px;
   /* border: 2px solid brown; */
   margin-top: 32px;
   margin-right: 214px;
@@ -254,6 +263,7 @@ body {
 }
 .movement {
   width: 231px;
+  text-align: center;
 }
 .movement h3 {
   text-align: center;
@@ -414,6 +424,435 @@ body {
 .run-easily-left-container {
   padding-left: 54px;
 }
+.container {
+  background: #222;
+}
+.BMI-header {
+  width: 671px;
+  margin: 0 auto;
+}
+.BMI-header h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 0;
+  line-height: 120%; /* 57.6px */
+}
+.BMI-header p {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+}
+.chart-BMI {
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 189px;
+  padding-top: 52px; */
+  width: 1060px;
+  margin: 0 auto;
+}
+.chart h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 33.6px */
+}
+.chart-table {
+  width: 310px;
+}
+
+.chart-table th {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  padding-left: 0;
+  /* padding-right: 45px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 120%;*/
+}
+
+.chart-table td {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  padding-left: 45px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+/* .BMI{
+  margin-left: 175px;
+  padding-right: 189px;
+} */
+.BMI h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 33.6px */
+}
+.BMI p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+}
+.input-table {
+  width: 282px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.height input {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  padding: 12px 40px 12px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.weight input {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  padding: 12px 40px 12px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.age input {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  padding: 12px 40px 12px 20px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.sex {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  padding: 12px 40px 12px 20px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.activity input {
+  margin-top: 10px;
+  width: 485px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+.calculate-button {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  padding: 15px 50px;
+  border-radius: 42px;
+  background: #e6533c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 0;
+}
+
+.meet-our-team h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 0;
+  line-height: 120%;
+}
+.meet-our-team p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+}
+.team-member img {
+  height: 335px;
+  width: 333px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.team-member {
+  width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+  padding: 25px;
+  border-radius: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  background: #222;
+}
+.bell {
+  position: relative;
+}
+.text-bell {
+  position: absolute;
+  bottom: 10px;
+}
+.text-bell h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  color: #fff;
+}
+.text-bell p {
+  margin: 0;
+}
+.cameron {
+  position: relative;
+}
+.text-cameron {
+  position: absolute;
+  bottom: 10px;
+}
+.text-cameron h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  color: #fff;
+}
+.text-cameron p {
+  margin: 0;
+}
+.darell {
+  position: relative;
+}
+.text-darell {
+  position: absolute;
+  bottom: 20px;
+}
+.text-darell h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  color: #fff;
+}
+.text-darell p {
+  margin: 0;
+}
+.dianne {
+  position: relative;
+}
+.text-dianne {
+  position: absolute;
+  bottom: 20px;
+}
+.text-dianne h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  color: #fff;
+}
+.text-dianne p {
+  margin: 0;
+}
+.cody {
+  position: relative;
+}
+.text-cody {
+  position: absolute;
+  bottom: 20px;
+}
+.text-cody h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  color: #fff;
+}
+.text-cody p {
+  margin: 0;
+}
+.webb {
+  position: relative;
+}
+.text-webb {
+  position: absolute;
+  bottom: 20px;
+}
+.text-webb h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+  color: #fff;
+}
+.text-webb p {
+  margin: 0;
+}
+.challenge-part {
+  max-width: 1060px;
+  border: 2px solid red;
+  margin: 20px auto;
+}
+.challenge-part h2 {
+  color: #fff;
+  font-size: 48px;
+  margin: 10px;
+}
+.challenge-part p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.heading-section {
+  width: 1060px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid yellowgreen;
+}
+.challenge-elements {
+  /* width: 250px; */
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cardio {
+  /* width: 500px; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  background-color: #222;
+  /* margin: 15px auto; */
+  padding: 20px 150px;
+  text-align: center;
+}
+
+.strenght {
+  /* width: 500px; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  background-color: #222;
+  /* margin: 15px auto; */
+  text-align: center;
+  padding: 20px 150px;
+}
+.true {
+  /* width: 500px; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #222;
+  border-radius: 20px;
+  /* margin: 15px auto; */
+  text-align: center;
+  padding: 20px 150px;
+}
+.yoga {
+  /* width: 500px; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #222;
+  border-radius: 20px;
+  /* margin: 15px auto; */
+  text-align: center;
+  padding: 20px 150px;
+}
+.challenge-elements h5 {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-container {
+  background-color: #222;
+  margin-top: 50px;
+  margin-bottom: 0;
+  /* border: 2px solid red; */
+}
+.footer-element {
+  width: 1060px;
+  display: flex;
+  margin: 50px auto;
+  /* border:2px solid yellow; */
+}
+.fitness-container {
+  width: 400px;
+  /* border: 2px solid green; */
+}
+.get-container-1 {
+  width: 300px;
+  padding-left: 15px;
+  /* border: 2px solid saddlebrown; */
+}
+.get-container-2 {
+  padding-left: 15px;
+  width: 300px;
+  /* border:2px solid wheat; */
+}
+.fitness-container h2 {
+  font-size: 50px;
+  color: #e6533c;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.fitness-container p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.get-container-1,
+.get-container-2 {
+  font-size: 25px;
+  color: #fff;
+}
+.get-container-1 li,
+.get-container-2 li {
+  list-style: none;
+  font-size: 18px;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.horizontal hr {
+  width: 1060px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.horizontal p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 @media (max-width: 576px) {
   .header-container {
@@ -431,6 +870,9 @@ body {
   }
   .main {
     flex-direction: column;
+  }
+  .right {
+    width: 450px;
   }
   .left {
     margin-top: 20px;
@@ -452,18 +894,14 @@ body {
     top: 109%;
     left: 1%;
   }
-  .right {
-    width: 575px;
-  }
-  .hamburgerIcon {
+  /* .hamburgerIcon {
     display: block;
-    width: 50px;
-    color: white;
-    z-index: 20000;
-  }
-  .habits {
+    /* width: 50px; */
+  /* color: white;
+    z-index: 20000; */
+  /* .habits {
     margin-top: 400px;
-  }
+  } */
   .picture {
     display: flex;
     flex-direction: column;
@@ -512,5 +950,115 @@ body {
     font-weight: 400;
     line-height: 18px; /* 128.571% */
     letter-spacing: 0.3px;
+  }
+  .run-easily {
+    width: 560px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .run-easily h2 {
+    font-size: 45px;
+    /* text-align: center; */
+  }
+  .run-easily p {
+    /* text-align: center; */
+  }
+  .run-easily-left-container {
+    padding-left: 33px;
+    align-items: center;
+  }
+  .run-easily-right-container img {
+    width: 352px;
+  }
+  .run-easily-left-container .h2 {
+    font-size: 32px !important;
+  }
+  .run-easily button {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    width: 350px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #e6533c;
+  }
+  .run-easily-left-container .button {
+    width: 287px;
+    margin-left: 33px;
+    margin-right: 33px;
+    align-items: center;
+  }
+  .BMI-calculator-section {
+    width: 575px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .chart-BMI {
+    width: 575px;
+    flex-direction: column;
+  }
+  .input-table {
+    grid-template-columns: 1fr;
+  }
+  .input-table {
+    width: 300px;
+  }
+  .BMI-header h2 {
+    text-align: center;
+    padding-right: 75px;
+  }
+  .BMI-header p {
+    text-align: center;
+    padding-right: 90px;
+  }
+  .chart h4 {
+    text-align: center;
+  }
+  .chart table {
+    width: 442px;
+    margin-left: 72px;
+  }
+  .BMI h4 {
+    text-align: center;
+  }
+  .BMI p {
+    text-align: center;
+  }
+  .challenge-elements {
+    grid-template-columns: 1fr;
+  }
+  .footer-element {
+    width: 530px;
+    flex-direction: column;
+  }
+  .heading-section {
+    width: 575px;
+  }
+  .team-member {
+    width: 530px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .meet-our-team {
+    width: 575px;
+  }
+  .BMI-header {
+    width: 575px;
+  }
+  .horizontal hr {
+    width: 480px;
+  }
+  .habits {
+    margin-top: 400px;
+    width: 575px;
   }
 }
