@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/miami'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miami');
 /* *{
   margin: 0;
   padding: 0;
@@ -53,7 +53,7 @@ body {
   background: #e6533c;
   width: 98px;
   height: 38px;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-top: 8px;
   align-items: center;
 }
@@ -90,7 +90,7 @@ body {
   font-family: Miami;
   font-size: 78px;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 800 px;
   line-height: 120%;
 }
 .paragraph {
@@ -135,6 +135,7 @@ body {
   border-radius: 42px;
   background: #e6533c;
   margin-right: 14px;
+  border: none;
 }
 .btn-2 {
   height: 54px;
@@ -402,12 +403,14 @@ body {
   line-height: 22px; /* 122.222% */
   display: flex;
   width: 224px;
+  border: none;
   padding: 16px 40px;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
   border-radius: 42px;
   background: #e6533c;
+  outline: none;
 }
 .run-easily-right-container img {
   border-radius: 18px;
@@ -560,21 +563,23 @@ body {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
-.sex {
-  color: rgba(255, 255, 255, 0.6);
+.inpt1 {
+  color: rgba(255, 255, 255, 0.30);
   font-family: Inter;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+  margin-top: 2px;
+  width: 275px;
+  height: 52px;
+  border: none;
   line-height: 22px; /* 137.5% */
-  padding: 12px 40px 12px 20px;
+  /* padding: 12px 40px 12px 20px; */
   align-items: center;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
 .activity input {
   margin-top: 10px;
-  width: 485px;
+  width: 515px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px 20px;
@@ -588,7 +593,8 @@ body {
 }
 .calculate-button {
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+  /* color: rgba(255, 255, 255, 0.6); */
   font-size: 20px;
   padding: 15px 50px;
   border-radius: 42px;
@@ -733,13 +739,14 @@ body {
 }
 .challenge-part {
   max-width: 1060px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 20px auto;
 }
 .challenge-part h2 {
   color: #fff;
   font-size: 48px;
   margin: 10px;
+  font-weight: 900;
 }
 .challenge-part p {
   color: rgba(255, 255, 255, 0.5);
@@ -749,7 +756,7 @@ body {
   width: 1060px;
   margin: 0 auto;
   text-align: center;
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
 }
 .challenge-elements {
   /* width: 250px; */
@@ -1035,7 +1042,7 @@ body {
     grid-template-columns: 1fr;
   }
   .footer-element {
-    width: 530px;
+    width: 575px;
     flex-direction: column;
   }
   .heading-section {
@@ -1054,11 +1061,18 @@ body {
   .BMI-header {
     width: 575px;
   }
+  .activity input{
+    width:233px;
+  }
   .horizontal hr {
     width: 480px;
   }
   .habits {
     margin-top: 400px;
     width: 575px;
+  }
+  .hamburgerIcon{
+    display: inline;
+    visibility: visible;
   }
 }
