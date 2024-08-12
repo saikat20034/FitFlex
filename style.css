@@ -13,7 +13,7 @@ body {
 }
 .header-container {
   background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
-  width: 1440px;
+  /* width: 1440px; */
   height: 715px;
   /* border: 2px solid red; */
 }
@@ -959,7 +959,7 @@ body {
     letter-spacing: 0.3px;
   }
   .run-easily {
-    width: 560px;
+    width: 550px;
     flex-direction: column;
     align-items: center;
   }
@@ -1049,7 +1049,7 @@ body {
     width: 575px;
   }
   .team-member {
-    width: 530px;
+    width: 500px;
     display: flex;
     align-items: center;
     flex-direction: column;
