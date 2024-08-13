@@ -24,7 +24,7 @@ body {
   font-style: italic;
   font-weight: 800;
   line-height: 120%; /* 2.7rem */
-  margin-left: 190px;
+  margin-left: 185px;
   margin-top: 58px;
 }
 .nav-items {
@@ -44,9 +44,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 21.6px */
-
-  margin-top: 47px;
-  margin-right: 190px;
+margin-top: 58px;
+  margin-right: 200px;
 }
 .home {
   border-radius: 46px;
@@ -211,7 +210,7 @@ body {
   letter-spacing: 1px;
 }
 .big-image {
-  padding-left: 90px;
+  padding-left: 10px;
 }
 .main {
   position: relative;
@@ -225,8 +224,8 @@ body {
   width: 193px;
   height: 98px;
   position: absolute;
-  top: 157px;
-  right: 140px;
+  top: 170px;
+right: 255px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.1);
@@ -364,13 +363,14 @@ body {
   letter-spacing: 0.3px;
 }
 .picture {
+  margin-left: 62px;
   display: flex;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .run-easily {
   margin: 0 auto;
-  width: 1060px;
+  width: 1100px;
   display: flex;
   justify-content: space-between;
   border-radius: 18px;
@@ -530,6 +530,7 @@ body {
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
+  border: none;
   font-weight: 400;
   line-height: 22px; /* 137.5% */
   padding: 12px 40px 12px 20px;
@@ -542,6 +543,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-family: Inter;
   font-size: 16px;
+  border: none;
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 137.5% */
@@ -555,6 +557,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-family: Inter;
   font-size: 16px;
+  border: none;
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 137.5% */
@@ -569,7 +572,7 @@ body {
   font-size: 16px;
   margin-top: 2px;
   width: 275px;
-  height: 52px;
+  height: 47px;
   border: none;
   line-height: 22px; /* 137.5% */
   /* padding: 12px 40px 12px 20px; */
@@ -577,9 +580,10 @@ body {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
-.activity input {
+.inpt2 {
   margin-top: 10px;
-  width: 515px;
+  width: 560px;
+  border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px 20px;
@@ -832,17 +836,19 @@ body {
   /* border:2px solid wheat; */
 }
 .fitness-container h2 {
-  font-size: 50px;
+  font-size: 70px;
   color: #e6533c;
   font-style: italic;
+  font-family: Inter;
   margin-bottom: 5px;
 }
 .fitness-container p {
   color: rgba(255, 255, 255, 0.5);
 }
 .get-container-1,
-.get-container-2 {
-  font-size: 25px;
+.get-container-2 h5{
+  font-size: 32px;
+  font-weight: 700;
   color: #fff;
 }
 .get-container-1 li,
@@ -861,6 +867,11 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+
+
+
+
+
 @media (max-width: 576px) {
   .header-container {
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
@@ -870,10 +881,14 @@ body {
     height: 20px;
   }
   .heading h1 {
-    font-size: 30px;
+    font-size: 76px;
+  }
+  .paragraph{
+    margin-top: 255px;
+    height: 70px;
   }
   .shape {
-    font-size: 30px;
+    font-size: 80px;
   }
   .main {
     flex-direction: column;
@@ -894,12 +909,12 @@ body {
     display: none;
   }
   .right-top {
-    top: 42%;
-    left: 44%;
+    top: 60%;
+    left: 50%;
   }
   .left-bottom {
-    top: 109%;
-    left: 1%;
+    top: 85%;
+    left: 3%;
   }
   /* .hamburgerIcon {
     display: block;
@@ -920,6 +935,7 @@ body {
   .habits h1 {
     color: #fff;
     font-family: Inter;
+    padding-top: 100px;
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
@@ -959,7 +975,7 @@ body {
     letter-spacing: 0.3px;
   }
   .run-easily {
-    width: 550px;
+    width: 530px;
     flex-direction: column;
     align-items: center;
   }
@@ -975,7 +991,8 @@ body {
     align-items: center;
   }
   .run-easily-right-container img {
-    width: 352px;
+    width: 470px;
+    margin-left: 33px;
   }
   .run-easily-left-container .h2 {
     font-size: 32px !important;
@@ -1018,12 +1035,12 @@ body {
     width: 300px;
   }
   .BMI-header h2 {
-    text-align: center;
-    padding-right: 75px;
+    text-align:left;
+    padding-left: 15px;
   }
   .BMI-header p {
-    text-align: center;
-    padding-right: 90px;
+    text-align:left;
+    padding-left: 15px;
   }
   .chart h4 {
     text-align: center;
@@ -1049,11 +1066,18 @@ body {
     width: 575px;
   }
   .team-member {
-    width: 500px;
+    width: 490px;
     display: flex;
     align-items: center;
     flex-direction: column;
     grid-template-columns: 1fr;
+  }
+  .team-member{
+    width:480px;
+  }
+  .team-member img{
+    height: 425px;
+    width:470px;
   }
   .meet-our-team {
     width: 575px;
@@ -1074,5 +1098,69 @@ body {
   .hamburgerIcon{
     display: inline;
     visibility: visible;
+    margin-top: 60px;
+    padding-right: 25px;
   }
+  .input-table{
+    grid-template-columns: 2fr 2fr;
+  }
+  .height input{
+    width:170px;
+    margin-left: 50px;
+  }
+  .weight input{
+    width:170px;
+  }
+  .age input{
+    width:170px;
+    margin-left: 50px;
+  }
+  .inpt1{
+    width:235px ;
+    height:47px ;
+  }
+  .activity input{
+    width:436px;
+    margin-left: 50px;
+  }
+  .calculate-button{
+    width:280px;
+    margin-left: 50px;
+  }
+  .inpt2{
+    width: 475px;
+    margin-left: 50px;
+  }
+  .cardio{
+    width:230px;
+    margin: 15px auto;
+  }
+  .strenght{
+    width:230px;
+    margin: 15px auto;
+  }
+  .true{
+    width: 230px;
+    margin: 15px auto;
+
+  }
+  .yoga{
+    width: 230px;
+    margin: 15px auto;
+  }
+  .fitness-container h2{
+    margin-left: 20px;
+    font-size: 70px;
+    font-weight: 800;
+  }
+  .fitness-container p{
+    margin-left: 20px;
+    font-size: 14px;
+  }
+.get-container-1,
+.get-container-2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
 }
