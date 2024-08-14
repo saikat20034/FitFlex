@@ -845,7 +845,11 @@ right: 255px;
 .fitness-container p {
   color: rgba(255, 255, 255, 0.5);
 }
-.get-container-1,
+.get-container-1 h5{
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
 .get-container-2 h5{
   font-size: 32px;
   font-weight: 700;
